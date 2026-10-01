@@ -1,5 +1,5 @@
 module "greeting" {
-  source = "git::ssh://git@github.com/chomatdam/sample-terraform-modules.git//modules/greeting?ref=greeting-v0.1.0"
+  source = "git::ssh://git@github.com/chomatdam/sample-terraform-modules.git//modules/greeting?ref=greeting-v0.1.1"
 
   name = "world"
 }
